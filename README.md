@@ -2,5 +2,8 @@
 
 This repository contains all my laboratory activities for CCM101 Cloud Computing.
 
-Name: Marc Christian Abadilla
+Name: Marc Christian V. Abadilla
+
 Course: BS Information Technology
+
+
