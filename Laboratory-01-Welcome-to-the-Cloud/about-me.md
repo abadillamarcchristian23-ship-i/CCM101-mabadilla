@@ -2,11 +2,13 @@
 
 ## Personal Information
 
-**Name:** Marc Christian Abadilla
+**Name:** Marc Christian V. Abadilla
 
 **Course:** Bachelor of Science in Information Technology
 
 **Subject:** CCM101 Cloud Computing
+
+**Year:** 4B
 
 ## About Me
 
