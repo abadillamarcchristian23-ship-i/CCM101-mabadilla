@@ -1,70 +1,32 @@
+# Cloud Provider Comparison
 
-# Cloud Infrastructure Components
+## Overview
 
-## 1. Compute Resources
+Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) are major public cloud providers. They provide similar infrastructure capabilities, but their services have different names and features.
 
-### Purpose
+## Infrastructure Service Comparison
 
-Compute resources provide the processing power required to run applications, services, and workloads. They include CPU, memory, and virtual machines that allow software to execute efficiently.
+| Infrastructure Component             | AWS                                      | Microsoft Azure                 | Google Cloud Platform       |
+| ------------------------------------ | ---------------------------------------- | ------------------------------- | --------------------------- |
+| Compute                              | Amazon EC2                               | Azure Virtual Machines          | Compute Engine              |
+| Storage                              | Amazon S3                                | Azure Blob Storage              | Cloud Storage               |
+| Networking                           | Amazon VPC                               | Azure Virtual Network           | Virtual Private Cloud (VPC) |
+| Identity and Access Management (IAM) | AWS Identity and Access Management (IAM) | Microsoft Entra ID / Azure RBAC | Cloud Identity and IAM      |
 
-### Importance in Cloud Computing
+## Guide Questions
 
-Compute resources are important because cloud applications need processing power to perform tasks. Cloud platforms allow organizations to increase or decrease compute resources depending on workload requirements.
+### 1. Which cloud provider offers the broadest range of services?
 
-### KillerCoda Linux Environment
+AWS offers a very broad range of cloud services covering computing, storage, databases, networking, security, analytics, artificial intelligence, and many other areas. Its large service portfolio makes it suitable for organizations with different types of cloud requirements.
 
-The KillerCoda environment provides a Linux server with CPU and memory resources. The CPU processes commands and applications, while the available RAM supports running processes and services.
+### 2. Which cloud platform would you recommend for an organization that primarily uses Microsoft products? Why?
 
----
+Microsoft Azure would be a strong recommendation for an organization that primarily uses Microsoft products. Azure integrates closely with Microsoft technologies such as Windows Server, Microsoft Entra ID, Microsoft 365, and other enterprise services.
 
-## 2. Storage Resources
+### 3. Which platform is widely recognized for Artificial Intelligence, Machine Learning, and Kubernetes services?
 
-### Purpose
+Google Cloud is widely recognized for its capabilities in Artificial Intelligence, Machine Learning, and Kubernetes. Google also developed Kubernetes and provides managed Kubernetes services through Google Kubernetes Engine (GKE).
 
-Storage resources are used to store operating system files, applications, configurations, user files, and other data.
+### 4. What similarities did you observe among the three cloud providers?
 
-### Importance in Cloud Computing
-
-Storage is important because cloud applications need reliable and scalable places to store data. Cloud providers offer different storage services depending on performance, capacity, and availability requirements.
-
-### KillerCoda Linux Environment
-
-The Linux environment provides disk storage that contains the operating system, installed software, configuration files, and user data. The `df -h` command was used to investigate the available disk capacity and mounted file systems.
-
----
-
-## 3. Networking Resources
-
-### Purpose
-
-Networking resources allow computers, servers, applications, and users to communicate with each other.
-
-### Importance in Cloud Computing
-
-Networking is essential because cloud resources need to communicate with users and other services through networks. IP addresses, network interfaces, routing, and connections allow cloud applications to exchange data.
-
-### KillerCoda Linux Environment
-
-The KillerCoda Linux server has network interfaces and an IP address that allow the server to communicate with other systems. The `ip addr` and `hostname -I` commands were used to investigate the networking configuration.
-
----
-
-## 4. Operating System
-
-### Purpose
-
-The operating system manages the computer's hardware and provides an environment where applications and services can run.
-
-### Importance in Cloud Computing
-
-An operating system is important because cloud servers require software that manages compute, memory, storage, networking, users, and running processes.
-
-### KillerCoda Linux Environment
-
-The KillerCoda environment uses a Linux operating system. Linux provides the command-line tools and system utilities needed to investigate and manage the cloud server environment.
-
----
-
-## Relationship Between the Components
-
-Compute, storage, networking, and the operating system work together as a complete infrastructure. The operating system manages the compute resources, accesses storage resources, and controls networking resources. Together, these components provide the foundation required to run cloud applications and services.
+All three providers offer equivalent infrastructure services for compute, storage, networking, and identity management. Although the service names are different, their main purpose is similar: providing scalable, secure, and flexible cloud infrastructure.
