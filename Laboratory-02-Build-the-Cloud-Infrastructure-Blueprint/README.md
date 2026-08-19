@@ -74,3 +74,4 @@ Creating the cloud infrastructure diagram also required careful planning to ensu
 * `cloud-provider-comparison.md` – AWS, Azure, and GCP comparison
 * `reflection.md` – Mission reflection
 * `screenshots/` – Laboratory evidence and cloud architecture diagram
+  
