@@ -2,14 +2,14 @@
 
 This repository contains all laboratory activities and exercises for **CCM101 - Cloud Computing**.
 
-## 📋 Student Information
+##  Student Information
 
 - **Name:** Marc Christian V. Abadilla
 - **Course:** BS Information Technology
 - **Institution:** University of Eastern Pangasinan
 - **Academic Year:** 2026-2027
 
-## 📁 Repository Contents
+##  Repository Contents
 
 This repository includes:
 
@@ -18,7 +18,7 @@ This repository includes:
 - Documentation and reports for each lab session
 - Configuration files and scripts used in experiments
 
-## 🗂️ Lab Activities
+##  Lab Activities
 
 | Lab # | Topic / Title | Description | Status | Link |
 | :---: | :--- | :--- | :---: | :---: |
@@ -29,9 +29,9 @@ This repository includes:
 🟢 Completed
 🟡 In Progress
 
-> 💡 Update this table as you complete each laboratory activity.
+>  Update this table as you complete each laboratory activity.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -46,7 +46,7 @@ git clone https://github.com/yourusername/ccm101-laboratory.git
 cd ccm101-laboratory
 ```
 
-## 📚 Learning Objectives
+##  Learning Objectives
 
 Through these laboratory activities, you will:
 
@@ -55,13 +55,13 @@ Through these laboratory activities, you will:
 - Learn to deploy and manage cloud-based applications
 - Practice cloud security and best practices
 
-## 📝 Notes
+##  Notes
 
 - Each laboratory folder contains individual instructions and resources
 - Refer to course materials for additional context
 - Feel free to fork this repository for your own use
 
-## 📧 Contact
+##  Contact
 
 For questions or concerns about this repository, please reach out through your institution's learning management system or contact your course instructor.
 
