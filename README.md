@@ -23,7 +23,7 @@ This repository includes:
 | Lab # | Title | Description | Status |
 |-------|-------|-------------|--------|
 | 01 | Laboratory-01-Welcome-to-the-Cloud  | Brief description of the activity | ✅ Completed |
-| 02 | Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint  | Brief description of the activity | ✅ Completed |
+| 02 | Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint  | Brief description of the activity | 🔄 In Progress |
 
 
 > 💡 Update this table as you complete each laboratory activity.
