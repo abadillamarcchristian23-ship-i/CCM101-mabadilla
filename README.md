@@ -20,10 +20,10 @@ This repository includes:
 
 ## 🗂️ Lab Activities
 
-| Lab # | Title | Description | Status |
-|-------|-------|-------------|--------|
-| 01 | Laboratory-01-Welcome-to-the-Cloud  | Brief description of the activity | ✅ Completed |
-| 02 | Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint  | Brief description of the activity | 🔄 In Progress |
+| Lab # | Topic / Title | Description | Status | Link |
+| :---: | :--- | :--- | :---: | :---: |
+| **01** | **Mission 1: Welcome to the Cloud** | Onboarding activity focused on navigating Linux environments via KillerCoda, managing user accounts, and establishing a GitHub portfolio. | 🟢 Completed | [View Folder](./Laboratory-01-Welcome-to-the-Cloud) |
+| **02** | **Mission 2: Build the Cloud Infrastructure Blueprint** | Investigating cloud infrastructure components, comparing AWS/Azure/GCP services, and designing architecture diagrams. | 🟡 In Progress | [View Folder](./Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint) |
 
 
 > 💡 Update this table as you complete each laboratory activity.
