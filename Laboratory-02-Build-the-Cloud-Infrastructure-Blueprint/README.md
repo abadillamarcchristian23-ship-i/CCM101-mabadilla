@@ -39,22 +39,21 @@ These components work together to provide the foundation for cloud-based applica
 
 ## Linux Commands Executed
 
-The following Linux commands were used during the investigation:
+The following Linux commands were used to investigate the system resources and configuration of the Ubuntu cloud environment:
 
-```bash
-lsb_release -a
-uname -r
-lscpu
-free -h
-df -h
-findmnt
-hostname
-hostname -I
-ip addr
-```
+| Command | Purpose |
+|---|---|
+| `lsb_release -a` | Displays the Linux distribution name, version, release number, and codename. |
+| `uname -r` | Displays the version of the Linux kernel currently running. |
+| `lscpu` | Displays CPU information, including processor architecture, cores, threads, and model. |
+| `free -h` | Displays total, used, and available RAM and swap memory in human-readable units. |
+| `df -h` | Displays disk space usage and available storage for mounted file systems. |
+| `findmnt` | Displays mounted file systems and their mount points. |
+| `hostname` | Displays the name of the Linux server or virtual machine. |
+| `hostname -I` | Displays the IP addresses assigned to the system. |
+| `ip addr` | Displays network interfaces, IP addresses, MAC addresses, and interface status. |
 
-These commands were used to investigate the operating system, kernel, CPU, memory, storage, mounted file systems, hostname, and networking information.
-
+These commands helped identify the operating system, kernel, CPU, memory, storage, file systems, hostname, and network configuration of the Linux cloud environment.
 ## Skills Learned
 
 During this laboratory activity, I learned how to inspect a Linux cloud environment using command-line tools. I also learned how compute, storage, networking, and operating systems work together in cloud infrastructure.
