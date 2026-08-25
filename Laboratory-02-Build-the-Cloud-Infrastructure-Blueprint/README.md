@@ -28,14 +28,18 @@ The major infrastructure components investigated in this laboratory were:
 
 These components work together to provide the foundation for cloud-based applications and services.
 
-## Tools Used
+## Tools and Platforms Used
 
-* KillerCoda Playground
-* Ubuntu Linux
-* GitHub
-* Web Browser
-* Draw.io
-* Markdown
+The laboratory utilized a combination of cloud-based environments, system administration tools, documentation platforms, and cloud provider references to complete the required tasks.
+
+* **KillerCoda** – Served as the virtual Linux environment where cloud infrastructure concepts were explored and system-level activities were performed.
+* **Linux Terminal** – Used to execute commands, inspect hardware and software resources, and gather system information from the cloud environment.
+* **Draw.io** – Used to create a visual representation of the cloud infrastructure and show how the different components connect.
+* **Markdown** – Used to structure, document, and present the laboratory outputs in a clear and organized format.
+* **AWS Documentation** – Consulted to identify and understand Amazon Web Services infrastructure and cloud service equivalents.
+* **Microsoft Azure Documentation** – Referenced to examine Azure's approach to computing, storage, networking, and other cloud resources.
+* **Google Cloud Documentation** – Used to compare Google Cloud Platform services with the infrastructure components investigated in the laboratory.
+
 
 ## Linux Commands Executed
 
