@@ -119,15 +119,6 @@ For this checkpoint, I launched a KillerCoda Playground and used Linux commands 
 | **Root Disk Available** | 13 GiB                                        |
 | **Disk Usage**          | 30%                                           |
 
-### Linux Commands Used
-
-```bash
-lsb_release -a
-lscpu
-free -h
-df -h
-```
-
 ### Cloud Migration
 
 If this Linux server were migrated to the cloud, it could be hosted using the following virtual machine services:
