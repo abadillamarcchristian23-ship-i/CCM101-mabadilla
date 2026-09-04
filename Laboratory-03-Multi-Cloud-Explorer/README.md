@@ -94,25 +94,7 @@ This command displays the available and used disk space of mounted filesystems.
 
 ---
 
-Linux Environment Results
-Information	Result
-Operating System	Ubuntu 24.04.4 LTS
-Release	24.04
-Codename	Noble
-Kernel	6.8.0-138-generic
-CPU Architecture	x86_64
-CPU	Intel Xeon E312xx (Sandy Bridge, IBRS update)
-CPU Cores	1
-CPU Threads	1
-CPU Speed	2.0 GHz
-Hypervisor	KVM
-Total Memory	1.9 GiB
-Available Memory	1.5 GiB
-Swap Memory	1.0 GiB
-Root Disk Size	19 GiB
-Root Disk Used	5.4 GiB
-Root Disk Available	13 GiB
-Disk Usage	30%
+
 ---
 
 ## Terminal Evidence
