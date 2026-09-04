@@ -136,13 +136,6 @@ The current KillerCoda environment is an Ubuntu Linux server running on a virtua
 ### Screenshot Evidence
 
 The terminal output from the KillerCoda Playground was captured as a screenshot and saved in the project's screenshots folder.
-
-**Screenshot:** `screenshots/killercoda-terminal.png`
-
----
-
-## Terminal Evidence
-
 ![KillerCoda Terminal](screenshots/killercoda-terminal.png)
 
 The screenshot above contains the Linux commands and their corresponding outputs collected during the investigation.
