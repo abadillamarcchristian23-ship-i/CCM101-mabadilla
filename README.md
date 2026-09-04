@@ -24,6 +24,7 @@ This repository includes:
 | :---: | :--- | :--- | :---: | :---: |
 | **01** | **Mission 1: Welcome to the Cloud** | Onboarding activity focused on navigating Linux environments via KillerCoda, managing user accounts, and establishing a GitHub portfolio. | 🟢 Completed | [View Folder](./Laboratory-01-Welcome-to-the-Cloud) |
 | **02** | **Mission 2: Build the Cloud Infrastructure Blueprint** | Investigating cloud infrastructure components, comparing AWS/Azure/GCP services, and designing architecture diagrams. | 🟢 Completed | [View Folder](./Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint) |
+| **03** | **Mission 3: Become a Multi-Cloud Explorer** | Researching AWS, Azure, and GCP, comparing equivalent cloud services, matching platforms to client requirements, and investigating a Linux cloud environment using KillerCoda. | 🟢 Completed | [View Folder](./Laboratory-03-Multi-Cloud-Explorer) |
 
 
 🟢 Completed
