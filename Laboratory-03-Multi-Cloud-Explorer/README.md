@@ -93,7 +93,60 @@ df -h
 This command displays the available and used disk space of mounted filesystems.
 
 ---
+## Checkpoint 7 – Continue Your Linux Investigation
 
+For this checkpoint, I launched a KillerCoda Playground and used Linux commands to investigate the system environment. The commands used were `lsb_release -a`, `lscpu`, `free -h`, and `df -h`.
+
+### Linux Environment Results
+
+| Information             | Result                                        |
+| ----------------------- | --------------------------------------------- |
+| **Operating System**    | Ubuntu 24.04.4 LTS                            |
+| **Release**             | 24.04                                         |
+| **Codename**            | Noble                                         |
+| **Kernel**              | 6.8.0-138-generic                             |
+| **CPU Architecture**    | x86_64                                        |
+| **CPU**                 | Intel Xeon E312xx (Sandy Bridge, IBRS update) |
+| **CPU Cores**           | 1                                             |
+| **CPU Threads**         | 1                                             |
+| **CPU Speed**           | 2.0 GHz                                       |
+| **Hypervisor**          | KVM                                           |
+| **Total Memory**        | 1.9 GiB                                       |
+| **Available Memory**    | 1.5 GiB                                       |
+| **Swap Memory**         | 1.0 GiB                                       |
+| **Root Disk Size**      | 19 GiB                                        |
+| **Root Disk Used**      | 5.4 GiB                                       |
+| **Root Disk Available** | 13 GiB                                        |
+| **Disk Usage**          | 30%                                           |
+
+### Linux Commands Used
+
+```bash
+lsb_release -a
+lscpu
+free -h
+df -h
+```
+
+### Cloud Migration
+
+If this Linux server were migrated to the cloud, it could be hosted using the following virtual machine services:
+
+| Cloud Provider | Cloud Service          | Purpose                                                                          |
+| -------------- | ---------------------- | -------------------------------------------------------------------------------- |
+| **AWS**        | Amazon EC2             | Hosts Ubuntu Linux virtual machines with configurable CPU, memory, and storage.  |
+| **Azure**      | Azure Virtual Machines | Provides Linux virtual machines that can run Ubuntu and other operating systems. |
+| **GCP**        | Compute Engine         | Provides scalable virtual machines for running Ubuntu-based workloads.           |
+
+### Explanation
+
+The current KillerCoda environment is an Ubuntu Linux server running on a virtualized KVM environment. A similar setup can be migrated to AWS using **Amazon EC2**, to Microsoft Azure using **Azure Virtual Machines**, or to Google Cloud using **Compute Engine**. Each platform allows the administrator to select appropriate computing resources such as CPU, memory, and disk storage based on the server's workload.
+
+### Screenshot Evidence
+
+The terminal output from the KillerCoda Playground was captured as a screenshot and saved in the project's screenshots folder.
+
+**Screenshot:** `screenshots/killercoda-terminal.png`
 
 ---
 
