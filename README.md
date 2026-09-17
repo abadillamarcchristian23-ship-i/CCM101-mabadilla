@@ -2,77 +2,88 @@
 
 This repository contains all laboratory activities and exercises for **CCM101 - Cloud Computing**.
 
-## 👨‍🎓 Student Information
+##  Student Information
 
 - **Name:** Marc Christian V. Abadilla
 - **Course:** BS Information Technology
 - **Institution:** University of Eastern Pangasinan
 - **Academic Year:** 2026-2027
 
-## 📚 Repository Contents
+##  Repository Contents
 
-This repository contains:
+This repository includes:
 
-- Laboratory activities and hands-on exercises
+- Laboratory exercises and hands-on activities
 - Cloud computing concepts and implementations
-- Documentation and reflections
-- Configuration files and scripts
-- Screenshots and outputs from laboratory activities
+- Documentation and reports for each lab session
+- Configuration files and scripts used in experiments
 
-## 🧪 Lab Activities
+##  Lab Activities
 
 | Lab # | Topic / Title | Description | Status | Link |
 | :---: | :--- | :--- | :---: | :---: |
-| **01** | **Mission 1: Welcome to the Cloud** | Introduction to cloud computing, Linux environments using KillerCoda, user account management, and GitHub portfolio setup. | 🟢 Completed | [View Folder](https://github.com/abadillamarcchristian23-ship-i/CCM101-mabadilla/tree/main/Laboratory-01-Welcome-to-the-Cloud) |
-| **02** | **Mission 2: Build the Cloud Infrastructure Blueprint** | Exploration of cloud infrastructure components, comparison of AWS, Azure, and GCP services, and creation of cloud architecture diagrams. | 🟢 Completed | [View Folder](https://github.com/abadillamarcchristian23-ship-i/CCM101-mabadilla/tree/main/Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint) |
-| **03** | **Mission 3: Become a Multi-Cloud Explorer** | Research and comparison of AWS, Azure, and GCP services, identifying suitable cloud platforms, and exploring a Linux cloud environment using KillerCoda. | 🟢 Completed | [View Folder](https://github.com/abadillamarcchristian23-ship-i/CCM101-mabadilla/tree/main/Laboratory-03-Multi-Cloud-Explorer) |
-| **04** | **Mission 4: Cloud-Native Engineer** | Comparing Virtual Machines and Containers, verifying Docker, deploying an Nginx container, and managing the container lifecycle using Docker commands. | 🟢 Completed | [View Folder](https://github.com/abadillamarcchristian23-ship-i/CCM101-mabadilla/tree/main/Laboratory-04-Cloud-Native-Engineer) |
-| **05** | **Mission 5: Coming Soon** | Future cloud computing laboratory activity. | 🟡 Coming Soon | — |
+| **01** | **Mission 1: Welcome to the Cloud** | Onboarding activity focused on navigating Linux environments via KillerCoda, managing user accounts, and establishing a GitHub portfolio. | 🟢 Completed | [View Folder](./Laboratory-01-Welcome-to-the-Cloud) |
+| **02** | **Mission 2: Build the Cloud Infrastructure Blueprint** | Investigating cloud infrastructure components, comparing AWS/Azure/GCP services, and designing architecture diagrams. | 🟢 Completed | [View Folder](./Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint) |
+| **03** | **Mission 3: Become a Multi-Cloud Explorer** | Researching AWS, Azure, and GCP, comparing equivalent cloud services, matching platforms to client requirements, and investigating a Linux cloud environment using KillerCoda. | 🟢 Completed | [View Folder](./Laboratory-03-Multi-Cloud-Explorer) |
+| **04** | **Mission 4: Cloud-Native Engineer** | Comparing Virtual Machines and Containers, verifying Docker, deploying an Nginx container, and managing the container lifecycle using Docker commands. | 🟢 Completed | [View Lab 4](./Laboratory-04-Cloud-Native-Engineer/README.md) |
+| **05** | **Mission 5: Coming Soon**           |       | Coming Soon  |                                                      |
 
-### Status Legend
 
-- 🟢 **Completed**
-- 🟡 **Coming Soon**
+🟢 Completed
+🟡 In Progress
 
-> Update this table as new laboratory activities are completed.
+>  Update this table as you complete each laboratory activity.
 
-## 📈 My Progress
+## My Progress
 
-- 🟢 **Lab 01:** Completed
-- 🟢 **Lab 02:** Completed
-- 🟢 **Lab 03:** Completed
-- 🟢 **Lab 04:** Completed
-- 🟡 **Lab 05:** Coming Soon
+* 🟢 **Lab 01:** Completed
+* 🟢 **Lab 02:** Completed
+* 🟢 **Lab 03:** Completed
+* 🟢 **Lab 04:** Completed
+* 🟡 **Lab 05:** Coming Soon
 
 ### Overall Progress
 
 **4 / 5 Laboratories Completed — 80%**
 
-## 🎯 Personal Goal
+## Personal Goal
 
 > *"Cloud computing is more than learning new technologies—it is about building skills, solving problems, and preparing for the future of IT."*
 
-My goal for this course is to improve my skills in **Linux, cloud platforms, Docker, and other cloud computing technologies**.
+By the end of this semester, I aim to improve my skills in **Linux, cloud platforms, Docker, and other cloud computing tools**.
 
-I also want to build a portfolio that shows my **progress, hands-on experience, and continuous learning** throughout the semester. Through these laboratory activities, I hope to become more confident in working with cloud technologies and become better prepared as a future **IT professional**.
+More importantly, I want to build a portfolio that shows my **progress, hands-on experience, and continuous learning** throughout this course. I hope these activities will help me become more confident and prepared as a future **IT professional**. 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
-Before working with the laboratory activities, the following may be needed:
+- Basic understanding of cloud computing concepts
+- Access to required cloud platforms (e.g., AWS, Azure, GCP)
+- Text editor or IDE (e.g., VS Code)
 
-- Basic knowledge of cloud computing
-- Basic Linux command-line skills
-- GitHub account
-- Access to required cloud platforms such as AWS, Azure, or GCP
-- Text editor or IDE such as Visual Studio Code
-- Docker for container-related activities
-
-### Clone the Repository
-
-To get a copy of this repository, run:
+### Cloning the Repository
 
 ```bash
-git clone https://github.com/abadillamarcchristian23-ship-i/CCM101-mabadilla.git
-cd CCM101-mabadilla
+git clone https://github.com/yourusername/ccm101-laboratory.git
+cd ccm101-laboratory
+```
+
+##  Learning Objectives
+
+Through these laboratory activities, you will:
+
+- Understand fundamental cloud computing concepts
+- Gain hands-on experience with cloud platforms
+- Learn to deploy and manage cloud-based applications
+- Practice cloud security and best practices
+
+##  Notes
+
+- Each laboratory folder contains individual instructions and resources
+- Refer to course materials for additional context
+- Feel free to fork this repository for your own use
+
+---
+
+**Last Updated:** September 2026
