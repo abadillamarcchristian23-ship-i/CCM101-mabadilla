@@ -82,14 +82,14 @@ One challenge was understanding the difference between the host port and the con
 
 ## Screenshots
 
-### Checkpoint 3 – Docker Environment
+### Checkpoint 3 – Docker installation and environment status
 
 <img src="screenshots/docker-version.png" alt="Docker Version" width="800">
 
-### Checkpoint 4 – Nginx Running
+### Checkpoint 4 – Successful Nginx web server test
 
 <img src="screenshots/nginx-running.png" alt="Nginx Running" width="800">
 
-### Checkpoint 5 – Container Lifecycle
+### Checkpoint 5 – Container stop, verification, and removal
 
 <img src="screenshots/container-lifecycle.png" alt="Container Lifecycle" width="800">
