@@ -86,4 +86,4 @@ Through these laboratory activities, you will:
 
 ---
 
-**Last Updated:** August 2026
+**Last Updated:** September 2026
