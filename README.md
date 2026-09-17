@@ -46,6 +46,13 @@ This repository includes:
 
 **4 / 5 Laboratories Completed — 80%**
 
+## Personal Goal
+
+> *"Cloud computing is more than learning new technologies—it is about building skills, solving problems, and preparing for the future of IT."*
+
+By the end of this semester, I aim to improve my skills in **Linux, cloud platforms, Docker, and other cloud computing tools**.
+
+More importantly, I want to build a portfolio that shows my **progress, hands-on experience, and continuous learning** throughout this course. I hope these activities will help me become more confident and prepared as a future **IT professional**. 💙
 
 ##  Getting Started
 
