@@ -63,10 +63,6 @@ Through these laboratory activities, you will:
 - Refer to course materials for additional context
 - Feel free to fork this repository for your own use
 
-##  Contact
-
-For questions or concerns about this repository, please reach out through your institution's learning management system or contact your course instructor.
-
 ---
 
 **Last Updated:** August 2026
