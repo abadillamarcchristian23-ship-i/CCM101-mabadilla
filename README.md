@@ -34,6 +34,19 @@ This repository includes:
 
 >  Update this table as you complete each laboratory activity.
 
+## My Progress
+
+* 🟢 **Lab 01:** Completed
+* 🟢 **Lab 02:** Completed
+* 🟢 **Lab 03:** Completed
+* 🟢 **Lab 04:** Completed
+* 🟡 **Lab 05:** Coming Soon
+
+### Overall Progress
+
+**4 / 5 Laboratories Completed — 80%**
+
+
 ##  Getting Started
 
 ### Prerequisites
