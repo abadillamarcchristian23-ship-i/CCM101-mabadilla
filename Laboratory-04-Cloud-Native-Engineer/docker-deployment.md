@@ -1,71 +1,19 @@
+## Docker Deployment
 
+### Docker Image and Container Deployment
 
-# Docker Deployment
+| Step | Command | Description |
+|---|---|---|
+| **Pull the Nginx Image** | `docker pull nginx` | Downloads the official Nginx image from Docker Hub. |
+| **Run the Nginx Container** | `docker run -d --name nginx-server -p 8080:80 nginx` | Creates and runs the Nginx container and maps port 8080 to port 80. |
+| **Test the Web Server** | `curl http://localhost:8080` | Tests the Nginx web server and confirms that the container is serving the webpage. |
 
-## Docker Image and Container Deployment
+### Container Lifecycle
 
-### Pull the Nginx Image
-
-```bash
-docker pull nginx
-```
-
-This downloads the official Nginx image from Docker Hub so it can be used to create a container.
-
-### Run the Nginx Container
-
-```bash
-docker run -d --name nginx-server -p 8080:80 nginx
-```
-
-This creates and runs the Nginx container in detached mode and maps host port 8080 to container port 80.
-
-### Test the Web Server
-
-```bash
-curl http://localhost:8080
-```
-
-This sends a local HTTP request to the Nginx web server and confirms that the container is serving the webpage.
-
-## Container Lifecycle
-
-### 1. List Running Containers
-
-```bash
-docker ps
-```
-
-This displays the containers that are currently running.
-
-### 2. Stop the Running Container
-
-```bash
-docker stop nginx-server
-```
-
-This stops the running Nginx container.
-
-### 3. Verify the Container Is Stopped
-
-```bash
-docker ps
-```
-
-This confirms that the Nginx container is no longer listed among the running containers.
-
-To also view stopped containers:
-
-```bash
-docker ps -a
-```
-
-### 4. Remove the Container
-
-```bash
-docker rm nginx-server
-```
-
-This permanently removes the stopped Nginx container from the Docker environment.
-
-
+| Step | Command | Description |
+|---|---|---|
+| **1. List Running Containers** | `docker ps` | Displays currently running containers. |
+| **2. Stop the Container** | `docker stop nginx-server` | Stops the running Nginx container. |
+| **3. Verify Container Status** | `docker ps` | Confirms that the Nginx container is no longer running. |
+| **4. View All Containers** | `docker ps -a` | Displays both running and stopped containers. |
+| **5. Remove the Container** | `docker rm nginx-server` | Removes the stopped Nginx container. |
