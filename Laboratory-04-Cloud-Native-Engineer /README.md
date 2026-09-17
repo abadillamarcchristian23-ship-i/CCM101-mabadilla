@@ -82,6 +82,14 @@ One challenge was understanding the difference between the host port and the con
 
 ## Screenshots
 
-* `docker-version.png` – Docker installation and environment status
-* `nginx-running.png` – Successful Nginx web server test
-* `container-lifecycle.png` – Container stop, verification, and removal
+### Checkpoint 3 – Docker Environment
+
+<img src="screenshots/docker-version.png" alt="Docker Version" width="800">
+
+### Checkpoint 4 – Nginx Running
+
+<img src="screenshots/nginx-running.png" alt="Nginx Running" width="800">
+
+### Checkpoint 5 – Container Lifecycle
+
+<img src="screenshots/container-lifecycle.png" alt="Container Lifecycle" width="800">
