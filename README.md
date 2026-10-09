@@ -26,7 +26,7 @@ This repository includes:
 | **02** | **Mission 2: Build the Cloud Infrastructure Blueprint** | Investigating cloud infrastructure components, comparing AWS/Azure/GCP services, and designing architecture diagrams.                                                          |  🟢 Completed  | [View Folder](./Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint) |
 | **03** | **Mission 3: Become a Multi-Cloud Explorer**            | Researching AWS, Azure, and GCP, comparing equivalent cloud services, matching platforms to client requirements, and investigating a Linux cloud environment using KillerCoda. |  🟢 Completed  | [View Folder](./Laboratory-03-Multi-Cloud-Explorer)                     |
 | **04** | **Mission 4: Cloud Native Engineer**                 | Exploring cloud-native development concepts, containerization, and modern tools and practices used for building and deploying cloud-based applications.                        |  🟢 Completed  | [View Folder](./Laboratory-04-Cloud-Native-Development)                 |
-| **05** | **Mission 5: Coming Soon**                              | Upcoming cloud computing laboratory activity.                                                                                                                                  | 🟡 Coming Soon |                                                                         |
+
 
 ### Status Legend
 
