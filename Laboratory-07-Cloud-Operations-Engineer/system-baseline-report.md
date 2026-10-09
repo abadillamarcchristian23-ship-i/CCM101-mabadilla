@@ -18,6 +18,7 @@ Based on the terminal output, the server has approximately 1903.2 MiB of total R
 The server had 1492.4 MiB of available memory during the assessment, indicating that memory was available for additional workloads.
 
 **Screenshot:**
+![Docker Logs](./screenshots/docker-logs.png)
 
 ### 2. Disk Assessment
 
