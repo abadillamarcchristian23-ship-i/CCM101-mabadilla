@@ -16,7 +16,7 @@ Based on the terminal output, the server has approximately 1903.2 MiB of total R
 * **Used Swap:** 0 MiB
 
 The server had 1492.4 MiB of available memory during the assessment, indicating that memory was available for additional workloads.
-
+**Screenshot:**
 
 
 ### 2. Disk Assessment
