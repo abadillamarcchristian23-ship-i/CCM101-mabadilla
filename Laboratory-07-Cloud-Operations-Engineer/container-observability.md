@@ -20,6 +20,8 @@ The command displayed the startup messages and HTTP access logs of the Nginx con
 
 The log shows that a request was made to `/hidden-admin-page`, but Nginx returned HTTP status `404` because the requested file did not exist. This confirms that the server recorded the unsuccessful request, which can help an engineer identify missing resources and investigate application issues.
 
+
+
 ### Why Application Logs Are Important
 
 ## Checkpoint 5: Real-Time Container Metrics
