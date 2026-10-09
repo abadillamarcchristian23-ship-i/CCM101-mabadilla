@@ -4,19 +4,26 @@
 
 ### Command Used
 
-`docker logs client-website`
+```bash
+docker logs client-website
+```
+
+The command displayed the startup messages and HTTP access logs of the Nginx container named `client-website`.
 
 ### 404 Error Log
 
-Paste the exact log line showing the HTTP 404 response from my terminal here.
+```text
+172.17.0.1 - - [09/Oct/2026:08:30:11 +0000] "GET /hidden-admin-page HTTP/1.1" 404 153 "-" "curl/8.5.0" "-"
+```
 
-[Paste actual 404 log line here]
+### Log Analysis
 
-### Importance of Application Logs
+The log shows that a request was made to `/hidden-admin-page`, but Nginx returned HTTP status `404` because the requested file did not exist. This confirms that the server recorded the unsuccessful request, which can help an engineer identify missing resources and investigate application issues.
 
-Application logs help identify failed requests and show which resources users attempted to access. They provide useful evidence for troubleshooting because an engineer can inspect the requested URL and response status instead of guessing the cause of a problem.
+### Why Application Logs Are Important
 
-### Screenshot
+Application logs provide a record of requests and errors that occur while a service is running. They help engineers investigate problems using actual evidence, such as requested URLs, timestamps, and HTTP status codes, instead of guessing what caused the issue.
 
-`screenshots/docker-logs.png`
+### Screenshot Evidence
 
+![Docker Logs](./screenshots/docker-logs.png)
