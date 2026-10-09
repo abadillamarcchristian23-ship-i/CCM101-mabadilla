@@ -1,16 +1,29 @@
 # Mission 6 Reflection: The Cloud Deployment Engineer
 
-This laboratory activity helped me understand how cloud applications can be deployed using Docker Compose. Before this mission, I mostly understood container deployment as running one container at a time. In this activity, I learned that a complete application can use multiple containers that work together to provide a service.
+## Question and Answer
 
-Writing a `docker-compose.yml` file makes the work of a cloud engineer easier because the configuration is saved in one place. Instead of remembering and typing many commands, the engineer can define the services and start them using a single command. This also helps reduce repeated work and makes the deployment easier to review and reproduce.
+### 1. How does writing a docker-compose.yml file make a cloud engineer's job easier compared to manually typing commands?
 
-I also learned that YAML indentation is important. If I accidentally use a Tab or place a line at the wrong indentation level, Docker Compose may fail to read the configuration correctly. This taught me to check the spaces and structure of the file before running the deployment command.
+**Answer:** Writing a `docker-compose.yml` file makes deployment easier because all the service configurations are saved in one file. Instead of running many commands separately, I can use one command to start the application and its database. It also makes the setup easier to repeat and manage.
 
-Environment variables are also important because they provide the configuration that each service needs. In our project, the database name, username, password, and database hostname allow Nextcloud to connect to MariaDB. I realized that the values must match between the two services. For a real production system, passwords should also be managed securely instead of being exposed in a shared configuration file.
+### 2. What happens if you make an indentation error, like using a Tab instead of Spaces, in a YAML file?
 
-Deploying Nextcloud in just a few minutes was an interesting experience because I could see how different containers work together as one system. Opening the setup page in a browser helped me connect the terminal commands with the actual application that users would access.
+**Answer:** An indentation error can cause Docker Compose to reject the file or interpret its structure incorrectly. YAML uses spaces to organize its settings, so the alignment must be correct. I learned that checking the indentation before deployment can help prevent errors.
 
-Since Mission 1, my understanding of cloud computing has improved step by step. I started by learning about the cloud and its basic concepts, then moved on to cloud infrastructure, providers, containers, and data services. In this mission, I learned how to combine application deployment with configuration files. I now understand that cloud engineering is not only about running commands but also about planning, documenting, testing, and maintaining reliable systems.
+### 3. Why did we use environment variables like MYSQL_PASSWORD in the Compose file?
 
-Overall, this activity gave me more confidence in using Docker Compose and encouraged me to keep improving my technical skills for future cloud computing projects.
+**Answer:** Environment variables provide the information needed by each container to work properly. In this activity, they define the database name, username, password, and hostname that Nextcloud uses to connect to MariaDB. For a real production system, sensitive values should be stored securely instead of being exposed in the configuration file.
 
+### 4. How did it feel to deploy a fully functional enterprise cloud storage system (Nextcloud) in just a few minutes?
+
+**Answer:** I felt excited because I was able to set up a cloud storage application using Docker Compose. It was interesting to see how two separate containers could work together as one system. This activity also helped me understand how cloud engineers can save time through automation.
+
+### 5. How has your understanding of Cloud Computing evolved since Mission 1?
+
+**Answer:** Since Mission 1, I have learned more about cloud infrastructure, cloud providers, containers, data services, and application deployment. I now understand that cloud computing involves more than just using online services. It also requires planning, configuration, testing, and proper documentation to make applications work reliably.
+
+## Overall Reflection
+
+This mission helped me improve my understanding of Docker Compose and Infrastructure as Code. I learned how to define services in a YAML file, connect an application to a database, and manage containers using simple commands. I also realized that small mistakes in configuration files can affect the deployment process.
+
+Compared with my first laboratory activity, I am now more familiar with using the Linux terminal and organizing my cloud computing work in GitHub. I still need more practice, but this experience gave me more confidence in handling multi-container applications. I can use these skills as a foundation for learning more advanced cloud deployment techniques in future activities.
