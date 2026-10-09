@@ -27,8 +27,7 @@ This repository includes:
 | **03** | **Mission 3: Become a Multi-Cloud Explorer**            | Researching AWS, Azure, and GCP, comparing equivalent cloud services, matching platforms to client requirements, and investigating a Linux cloud environment using KillerCoda. |  🟢 Completed  | [View Folder](./Laboratory-03-Multi-Cloud-Explorer)                     |
 | **04** | **Mission 4: Cloud Native Engineer**                 | Exploring cloud-native development concepts, containerization, and modern tools and practices used for building and deploying cloud-based applications.                        |  🟢 Completed  | [View Folder](./Laboratory-04-Cloud-Native-Development)                 |
 | **05** | **Mission 5: Cloud Data Engineer** | Deployment of a MinIO object storage server using Docker, including bucket creation, file uploading, and cloud storage documentation. | 🟢 Completed | [View Folder](./Laboratory-05-Cloud-Data-Engineer) |
-
-
+| **06** | **Mission 6: The Cloud Deployment Engineer** | Multi-container cloud storage deployment using Docker Compose, integrating Nextcloud and MariaDB, with YAML configuration, deployment testing, and technical documentation. | 🟢 Completed | [View Folder](./Laboratory-06-Cloud-Deployment-Engineer) |
 
 ### Status Legend
 
