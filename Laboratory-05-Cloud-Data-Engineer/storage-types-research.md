@@ -7,7 +7,7 @@ Cloud storage systems organize and manage data in different ways. Choosing the r
 
 ## Comparison of Storage Types
 
-| Storage Type   | Description                                                               | Best Use Case                                                              | Cloud Provider Example             |
+| Storage Type   | Description                                                               | Primary Use Case                                                              | Cloud Provider Example             |
 | -------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------- |
 | Block Storage  | Divides information into fixed-sized blocks that can be accessed separately.     | Operating system disks, databases, and virtual machine storage.            | Amazon Elastic Block Store (EBS)   |
 | File Storage   | Arranges information as files inside folders and directories.                    | Shared documents, team folders, and network file systems.                  | Amazon Elastic File System (EFS)   |
