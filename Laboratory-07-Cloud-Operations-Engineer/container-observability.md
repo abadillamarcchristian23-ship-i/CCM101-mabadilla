@@ -22,6 +22,39 @@ The log shows that a request was made to `/hidden-admin-page`, but Nginx returne
 
 ### Why Application Logs Are Important
 
+## Checkpoint 5: Real-Time Container Metrics
+
+### Command Used
+
+```bash
+docker stats
+```
+
+### Observed Container Metrics
+
+| Metric                  | Actual Result     |
+| ----------------------- | ----------------- |
+| Container Name          | `client-website`  |
+| Container ID            | `216243db893b`    |
+| CPU Usage               | 0.00%             |
+| Memory Usage            | 2.77 MiB          |
+| Memory Limit            | 1.859 GiB         |
+| Memory Usage Percentage | 0.15%             |
+| Network I/O             | 2.75 kB / 2.35 kB |
+| Block I/O               | 41 kB / 28.7 kB   |
+| Processes (PIDS)        | 2                 |
+
+### Analysis
+
+The `client-website` container used 0.00% CPU and 2.77 MiB of memory during the observation. Its memory consumption was only 0.15% of the displayed limit, indicating low resource usage while the Nginx server was running.
+
+The network and block I/O values also show that the container had recorded data transfer and disk activity. However, these results represent only the container's condition at the time of monitoring and do not prove that it can handle thousands of simultaneous users.
+
+### Screenshot Evidence
+
+Save the terminal screenshot as `container-metrics.png` inside the `screenshots` folder.
+
+
 Application logs provide a record of requests and errors that occur while a service is running. They help engineers investigate problems using actual evidence, such as requested URLs, timestamps, and HTTP status codes, instead of guessing what caused the issue.
 
 ### Screenshot Evidence
