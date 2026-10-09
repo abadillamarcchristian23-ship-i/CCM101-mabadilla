@@ -16,8 +16,10 @@ Based on the terminal output, the server has approximately 1903.2 MiB of total R
 * **Used Swap:** 0 MiB
 
 The server had 1492.4 MiB of available memory during the assessment, indicating that memory was available for additional workloads.
-**Screenshot:**
 
+**Screenshot Evidence — Memory Check**
+
+![Memory Check](./screenshots/memory-check.png)
 
 ### 2. Disk Assessment
 
@@ -30,8 +32,9 @@ The server had 1492.4 MiB of available memory during the assessment, indicating 
 
 The root filesystem had 13G of available space at the time of checking. Monitoring disk capacity before a traffic surge is important because additional application files and logs can consume storage and potentially affect service availability.
 
-**Screenshot:**
+**Screenshot Evidence — Disk Usage Check**
 
+![Disk Check](./screenshots/disk-check.png)
 
 ### 3. CPU and Process Assessment
 
@@ -48,6 +51,10 @@ The CPU statistics were:
 The `node` process was using 0.3% CPU and 2.9% memory at the time of observation.
 
 These results indicate that the host had low CPU activity during the baseline check. However, this represents only the server's condition at that moment and does not guarantee performance under heavy traffic.
+
+**Screenshot Evidence — CPU and Process Check**
+
+![CPU and Process Check](./screenshots/checkpoint-2.2.png)
 
 ### 4. Baseline Conclusion
 
