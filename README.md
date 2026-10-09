@@ -43,7 +43,10 @@ This repository includes:
 * 🟢 **Lab 02:** Completed
 * 🟢 **Lab 03:** Completed
 * 🟢 **Lab 04:** Completed
-* 🟡 **Lab 05:** Coming Soon
+* 🟢 **Lab 05:** Completed
+* 🟢 **Lab 06:** Completed
+* 🟢 **Lab 07:** Completed
+
 
 ### Overall Progress
 
