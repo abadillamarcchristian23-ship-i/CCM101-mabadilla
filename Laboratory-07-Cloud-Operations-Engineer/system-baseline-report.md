@@ -17,7 +17,7 @@ Based on the terminal output, the server has approximately 1903.2 MiB of total R
 
 The server had 1492.4 MiB of available memory during the assessment, indicating that memory was available for additional workloads.
 
-**Screenshot:** `screenshots/memory-check.png`
+**Screenshot:**
 
 ### 2. Disk Assessment
 
@@ -31,7 +31,7 @@ The server had 1492.4 MiB of available memory during the assessment, indicating 
 The root filesystem had 13G of available space at the time of checking. Monitoring disk capacity before a traffic surge is important because additional application files and logs can consume storage and potentially affect service availability.
 
 **Screenshot:**
-Screenshot: screenshots/disk-check.png
+
 
 ### 3. CPU and Process Assessment
 
