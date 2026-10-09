@@ -1,12 +1,22 @@
-
 # Mission 5 Reflection: The Cloud Data Engineer
 
-Completing this laboratory helped me understand why choosing the right storage system is important when building a cloud application. I learned that Block Storage works like a disk and is useful for operating systems and databases, while File Storage organizes information through files and folders. Object Storage is different because it stores data as individual objects with identifiers and metadata. For an application that handles millions of photos, I think Object Storage is a better choice because it is designed for large collections of unstructured files and can support storage growth as the number of users increases.
+## 1. Why is Object Storage better suited for storing millions of photos compared to a traditional Block Storage hard drive?
 
-Using Docker also made the deployment easier for me. Instead of installing and configuring every component manually, I used one command to download and run MinIO with the required ports and environment variables. I also learned that the `-e` option allows configuration values, such as the administrator username and password, to be passed into the container.
+Object Storage is better for millions of photos because it stores each file as an object with its own identifier and metadata. It is designed to manage large amounts of unstructured data and can grow as the application receives more uploads. Block Storage is useful for operating systems and databases, but Object Storage is more suitable for a photo-sharing application.
 
-A bucket is a storage container where objects are organized. In this activity, I used the name `client-photos` to represent the location where the client's uploaded images would be stored. Uploading a sample file helped me understand how an object storage service works through its web console.
+## 2. How did using Docker make it easier to deploy the MinIO storage server?
 
-For large companies, protecting stored data requires more than keeping files on one physical server. They can use replicated copies, geographically separate storage, versioning, regular backups, and monitoring to reduce the risk of data loss. These methods help with recovery when hardware fails, although the actual protection depends on how the storage system is configured.
+Docker made the deployment easier because I only needed a command to download and run the MinIO container. I did not have to install and configure every component manually. I also learned how to use port mapping and environment variables when starting a service.
 
-Lastly, this activity improved my confidence in using the Linux command line. I practiced running Docker commands, checking containers, and viewing logs to verify the deployment. I still need more practice troubleshooting errors, but I am becoming more comfortable following technical instructions and understanding what each command does. Overall, this mission helped me connect cloud storage concepts with an actual working service instead of learning only from written examples.
+## 3. What is a bucket in the context of cloud storage?
+
+A bucket is a container used to organize objects in an object storage system. In this activity, I created a bucket named `client-photos`. This bucket serves as the storage location for the sample files uploaded to MinIO.
+
+## 4. How do large enterprise companies ensure their object storage data is not lost if the physical server crashes?
+
+Large companies can protect their data by keeping multiple copies across different disks or servers, using replication, and maintaining separate backups. They can also use versioning and monitoring to help recover files and detect problems. These methods reduce the risk of permanent data loss when hardware fails.
+
+## 5. How is your confidence in navigating the Linux command line growing?
+
+My confidence in using the Linux command line is improving because I can now run Docker commands, check running containers, and read error messages. During this activity, I encountered problems downloading the original MinIO image, but I learned how to troubleshoot and use another image source. This experience taught me that understanding errors is an important part of being a cloud engineer.
+
