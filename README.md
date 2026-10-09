@@ -28,6 +28,8 @@ This repository includes:
 | **04** | **Mission 4: Cloud Native Engineer**                 | Exploring cloud-native development concepts, containerization, and modern tools and practices used for building and deploying cloud-based applications.                        |  🟢 Completed  | [View Folder](./Laboratory-04-Cloud-Native-Development)                 |
 | **05** | **Mission 5: Cloud Data Engineer** | Deployment of a MinIO object storage server using Docker, including bucket creation, file uploading, and cloud storage documentation. | 🟢 Completed | [View Folder](./Laboratory-05-Cloud-Data-Engineer) |
 | **06** | **Mission 6: The Cloud Deployment Engineer** | Multi-container cloud storage deployment using Docker Compose, integrating Nextcloud and MariaDB, with YAML configuration, deployment testing, and technical documentation. | 🟢 Completed | [View Folder](./Laboratory-06-Cloud-Deployment-Engineer) |
+| **07** | **Mission 7: The Cloud Operations Engineer** | Linux server resource monitoring, Nginx container deployment, HTTP traffic simulation, application log analysis, and real-time Docker performance metrics. | 🟢 Completed | [View Folder](./Laboratory-07-Cloud-Operations-Engineer) |
+
 
 ### Status Legend
 
