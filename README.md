@@ -29,6 +29,7 @@ This repository includes:
 | **05** | **Mission 5: Cloud Data Engineer** | Deployment of a MinIO object storage server using Docker, including bucket creation, file uploading, and cloud storage documentation. | 🟢 Completed | [View Folder](./Laboratory-05-Cloud-Data-Engineer) |
 | **06** | **Mission 6: The Cloud Deployment Engineer** | Multi-container cloud storage deployment using Docker Compose, integrating Nextcloud and MariaDB, with YAML configuration, deployment testing, and technical documentation. | 🟢 Completed | [View Folder](./Laboratory-06-Cloud-Deployment-Engineer) |
 | **07** | **Mission 7: The Cloud Operations Engineer** | Linux server resource monitoring, Nginx container deployment, HTTP traffic simulation, application log analysis, and real-time Docker performance metrics. | 🟢 Completed | [View Folder](./Laboratory-07-Cloud-Operations-Engineer) |
+| **08** | **Mission 8: The Cloud Security Engineer** | Deployment of an Nginx web application, security auditing, UFW firewall configuration, Default Deny policy enforcement, and selective SSH and TCP port 8080 access management. | 🟢 Completed | [View Folder](./Laboratory-08-Cloud-Security-Engineer) |
 
 
 ### Status Legend
