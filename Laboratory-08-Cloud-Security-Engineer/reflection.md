@@ -1,15 +1,37 @@
-# Mission Reflection
+# Mission 8: The Cloud Security Engineer
 
-## Mission 8: The Cloud Security Engineer
+## Checkpoint 7 – Mission Reflection
 
-Completing this mission helped me understand that a server needs more than a working application to be considered secure. A host-based firewall provides an additional layer of protection because it controls network connections directly on the server. Even if an attacker passes through the network perimeter, the firewall can still block incoming connections that are not allowed by its rules.
+### Q1. How does a host-based firewall protect a server even if the physical network perimeter is breached?
 
-Managing open ports is important because each unnecessary service can create another possible entry point for attackers. A server should not accept every connection without checking whether it is needed. In this activity, I allowed SSH for remote administration and TCP port 8080 for the web application. This taught me to give access only to services that have a clear purpose and to verify the firewall rules after applying them.
+**Answer:**
 
-In a real enterprise environment, leaving MySQL port 3306 open to the public internet is dangerous because unauthorized people could attempt to log in, guess passwords, or exploit database vulnerabilities. If they gain access, confidential information could be exposed or modified. A database should normally accept connections only from trusted application servers or approved networks.
+A host-based firewall protects a server by checking and controlling network traffic directly on the machine. Even if an attacker gets past the network's main firewall, UFW can still block incoming connections that are not allowed by its rules. This gives the server another layer of protection and helps prevent unauthorized access.
 
-This mission changed my perspective because I realized that a server can become vulnerable when security settings are overlooked. A successful application test does not automatically mean that the server is protected. I also learned why the order of firewall commands matters, especially allowing SSH before enabling UFW. Security requires careful planning and regular checking rather than simply turning on a firewall and assuming everything is safe.
+### Q2. Why is managing open network ports critical to reducing a server's attack surface?
 
-My GitHub portfolio now contains eight cloud computing missions that demonstrate my progress in learning different cloud technologies. The activities cover cloud fundamentals, infrastructure, containers, storage, deployment, operations, and security. Having these projects organized in one repository helps me review what I have learned and show my practical skills as an IT student. I can continue improving this portfolio by adding accurate documentation, clear screenshots, and the results of each completed activity.
+**Answer:**
 
-Overall, Mission 8 taught me that protecting a cloud server requires controlling access, reducing unnecessary exposure, and checking that security configurations work as intended.
+Managing open ports is important because every unnecessary port can provide another possible way for attackers to reach a service. By allowing only the ports needed by the server, administrators can reduce security risks and limit unwanted connections. In this mission, SSH and TCP port 8080 were allowed because they were required for administration and web access.
+
+### Q3. In a real enterprise environment, why is it dangerous to leave a database port like 3306 for MySQL open to the public internet?
+
+**Answer:**
+
+Leaving MySQL port 3306 open to the public internet exposes the database to unauthorized login attempts and possible attacks against the database service. If an attacker successfully gains access, confidential information could be stolen, changed, or deleted. For better security, the database should accept connections only from trusted application servers or approved networks.
+
+### Q4. How did completing this mission change your perspective on how easily a server can be compromised?
+
+**Answer:**
+
+This mission taught me that a server can become vulnerable when its security settings are ignored. Before this activity, I mainly focused on making applications run correctly, but I learned that controlling access is just as important. I also realized that a small mistake in firewall configuration can cause security problems or prevent administrators from connecting to the server. Proper rules and regular checking are necessary to keep the system protected.
+
+### Q5. How does your GitHub portfolio currently look with eight completed missions?
+
+**Answer:**
+
+My GitHub portfolio now shows my progress through eight cloud computing missions, from learning cloud fundamentals to configuring server security. Each mission helps me develop practical skills in Linux, containers, storage, deployment, monitoring, and firewall management. I am also learning how to organize my projects and document my work clearly. This portfolio can serve as evidence of my learning and a useful reference for future IT projects and job applications.
+
+## Conclusion
+
+Completing Mission 8 helped me understand that cloud security requires more than installing applications and making them accessible. Administrators must control network access, remove unnecessary exposure, and verify that security rules are working as expected. I will apply these lessons to future cloud computing activities and continue improving my GitHub portfolio.
