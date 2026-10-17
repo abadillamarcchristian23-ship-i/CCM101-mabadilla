@@ -55,7 +55,7 @@ This repository includes:
 
 ### Overall Progress
 
-**8 / 10 Laboratories Completed — 80%**
+**9 / 10 Laboratories Completed — 80%**
 
 ## Personal Goal
 
