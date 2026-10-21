@@ -1,1 +1,41 @@
 
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: enterprise_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: secure_root_password123
+      MYSQL_DATABASE: wordpress_db
+      MYSQL_USER: wp_user
+      MYSQL_PASSWORD: wp_password123
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - app-net
+
+  wordpress:
+    image: wordpress:latest
+    container_name: enterprise_wordpress
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress_db
+      WORDPRESS_DB_USER: wp_user
+      WORDPRESS_DB_PASSWORD: wp_password123
+    volumes:
+      - wp_data:/var/www/html
+    networks:
+      - app-net
+
+volumes:
+  db_data:
+  wp_data:
+
+networks:
+  app-net:
+    driver: bridge
