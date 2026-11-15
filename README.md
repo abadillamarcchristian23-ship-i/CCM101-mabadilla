@@ -33,7 +33,6 @@ This repository includes:
 | **09** | **Mission 9: The Cloud Automation Engineer** | Bash scripting, automated application data backups, executable permissions, compressed archives, and daily cron scheduling. | 🟢 Completed | [View Folder](./Laboratory-09-Cloud-Automation-Engineer) |
 | **10** | **Mission 10: The Enterprise Cloud Architect** | Multi-tier private cloud deployment via Docker Compose (WordPress + MySQL 8.0), persistent volumes, UFW perimeter security, and Cron disaster recovery. | 🟢 Completed | [View Folder](./Laboratory-10-Enterprise-Cloud-Architect) |
 
-
 ### Status Legend
 
 🟢 Completed
