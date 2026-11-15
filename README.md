@@ -51,11 +51,12 @@ This repository includes:
 * 🟢 **Lab 07:** Completed
 * 🟢 **Lab 08:** Completed
 * 🟢 **Lab 09:** Completed
+* 🟢 **Lab 10:** Completed
 
 
 ### Overall Progress
 
-**9 / 10 Laboratories Completed — 80%**
+**10 / 10 Laboratories Completed — 100%**
 
 ## Personal Goal
 
